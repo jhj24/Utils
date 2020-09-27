@@ -1,4 +1,4 @@
-package com.zgdj.lib.utils.permissions
+package com.jhj.utils.permissions
 
 import android.os.Build
 import androidx.fragment.app.Fragment

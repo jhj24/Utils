@@ -3,7 +3,6 @@ package com.jhj.utils.permissions
 import android.Manifest
 import android.os.Build
 import androidx.fragment.app.FragmentActivity
-import com.zgdj.lib.utils.permissions.PermissionsFragment
 
 fun <T:FragmentActivity> T.requestPermissions(vararg permissions: String, body: (Array<String>, Array<String>) -> Unit){
     val mPermissions = permissions.toList().toTypedArray()
